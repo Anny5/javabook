@@ -1,4 +1,6 @@
-class MyFirstProgram{
+package ca.stqa.javabook.sandbox;
+
+public class MyFirstProgram {
 
 public static void main(String[] args){
 
