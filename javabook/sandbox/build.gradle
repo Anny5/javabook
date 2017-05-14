@@ -5,3 +5,12 @@ mainClassName = "ca.stqa.javabook.sandbox.MyFirstProgram"
 task wrapper(type: Wrapper) {
 	gradleVersion = '2.0'
 }
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.testng:testng:6.11'
+}

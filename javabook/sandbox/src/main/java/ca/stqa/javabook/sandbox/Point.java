@@ -3,7 +3,7 @@ package ca.stqa.javabook.sandbox;
 public class Point {
 
   public double x;
-  public double y; 
+  public double y;
 
   public Point (double x,double y){
    this.x = x;
@@ -14,8 +14,3 @@ public class Point {
     return Math.sqrt((p2.y - p1.y)*(p2.y - p1.y) + (p2.x - p1.x)*(p2.x - p1.x));
   }
   }
-/*public class Point {
-
- public double x; //x
- public double y; //y
- */
